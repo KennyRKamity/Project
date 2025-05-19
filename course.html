@@ -1,16 +1,27 @@
 <html>
 	<head> 
-		<title> Registration</title>
+		<title> Course Registration</title>
 <style>
 body{background-color:black}
+.div{color:white}
 </style>
 	</head>
 	<body>
-		<h5 style="font-size=60px;"> Course selection </h5>
-		<label> Program</label>
-		<input type="checkbox" id="Btech" name="Btech" value="Btech">
-		<label for="btech"> btech </label>
+		<form class="div">
+		<h1 style="font-size=60px; font-align:center"> Course selection </h1>
+		<label> Select Course</label><br>
+		<input type="checkbox" id="cse" name="cse" value="cse">
+		<label for="cse"> CSE </label><br>
+		<input type="checkbox" id="IT" name="IT" value="IT">
+		<label for="IT"> IT </label><br>
+		<input type="checkbox" id="AI&ML" name="AI&ML" value="AI&ML">
+		<label for="AI&ML"> AI&ML </label><br>
+		<input type="checkbox" id="software engineering" name="software engineering" value="software engineering">
+		<label for="Software Engineering"> Software Engineering </label><br>
+		<input type="checkbox" id="Data Science" name="Data Science" value="Date Science">
+		<label for="Data Science"> Data Science </label><br> 
 		<input type="submit" value="submit">
-		<input type="reset" value="Reset">
+		<input type="reset" value="Reset"> 
+		</form>
 	</body>
 </html>
