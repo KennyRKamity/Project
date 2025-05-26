@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography & Layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7faff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header & Navbar */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Admission Content */
+.admission .intro {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.admission h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.admission-section h2 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.admission-section ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  list-style-type: disc;
+}
+
+/* Call to Action */
+.cta {
+  text-align: center;
+  background-color: #eaf2ff;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 15px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
