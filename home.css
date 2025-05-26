@@ -9,21 +9,18 @@ body {
   background-color: #f5f9ff;
   color: #333;
 }
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
 
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
   background-color: #003366;
-  color: white;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-}
+  color: white;}
 
 nav ul {
   list-style: none;
@@ -74,17 +71,9 @@ nav a:hover {
   padding: 12px 24px;
   border-radius: 6px;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .btn:hover {
   background-color: #e6b800;
 }
 
-/* Footer */
-footer {
-  background-color: #003366;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
