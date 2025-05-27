@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+  <title>Admissions | My College</title>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7faff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header & Navbar */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Admission Content */
+.admission .intro {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.admission h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.admission-section h2 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.admission-section ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  list-style-type: disc;
+}
+
+.cta {
+  text-align: center;
+  background-color: #eaf2ff;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 15px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #003366;
+  color: white;
+  margin-top: 60px;
+}
+</style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="container nav">
+      <div class="logo"> My College</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="admission.html" class="active">Admissions</a></li>
+          <li><a href="auth.html">Login/Signup</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="admission container">
+    <section class="intro">
+      <h1>Admissions Open for 2025</h1>
+      <p>Shape your future with a world-class education at My College.</p>
+    </section>
+
+    <section class="admission-section">
+      <h2>Admission Requirements</h2>
+      <ul>
+        <li>Completed application form</li>
+        <li>High school diploma or equivalent</li>
+        <li>Government-issued ID</li>
+        <li>Entrance test score (for selected programs)</li>
+      </ul>
+
+      <h2>Important Dates</h2>
+      <ul>
+        <li><strong>Applications Open:</strong> March 1, 2025</li>
+        <li><strong>Deadline:</strong> June 30, 2025</li>
+        <li><strong>Entrance Test:</strong> July 15, 2025</li>
+        <li><strong>Orientation:</strong> August 10, 2025</li>
+        <li><strong>Session Begins:</strong> August 20, 2025</li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <p>Don’t wait! Start your application today and be part of our dynamic learning community.</p>
+      <a href="registration.html" class="btn">Apply Now</a>
+    </section>
+  </main>
+
+  
+  
+</body>
+</html>
